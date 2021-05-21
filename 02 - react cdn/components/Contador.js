@@ -6,7 +6,7 @@ const Contador = () => {
 
   return (
     <div>
-      <h1 className={contador < 0 ? "menor" : "mayor"}>
+      <h1 className={contador == 0 ? "x": contador < 0 ? "menor" : "mayor"}>
         Contador: {contador}{" "}
       </h1>
       <hr />
