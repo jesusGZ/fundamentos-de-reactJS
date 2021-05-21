@@ -14,8 +14,16 @@
     <div id="root"></div>
 
     <script>
-        ReactDOM.render(React.createElement("h1", null , "Hola mundo desde react"),
-        document.getElementById("root"))
+        ReactDOM.render(
+            React.createElement("ol", null,
+                React.createElement("li", null , "manzana"),
+                React.createElement("li", null , "mango"),
+                React.createElement("li", null , "pepino"),
+                React.createElement("li", null , "sandia"),
+                React.createElement("li", null , "mamey"),
+        ), 
+        document.getElementById("root")
+        );
     </script>
 </body>
 </html>
